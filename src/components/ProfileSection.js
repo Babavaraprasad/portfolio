@@ -1,8 +1,8 @@
 import styles from '../styles/ProfileSection.module.scss';
 import Image from 'next/image';
 
-export default function ProfileSection() {
-let name = 'Hi, Im Babavaraprasad Reddy Pingili';
+export default function ProfileSection({text}) {
+let name = text ? text : 'Hi, Im Babavaraprasad Reddy Pingili';
   return (
     <section className={styles.profileSection}>
         <Image
