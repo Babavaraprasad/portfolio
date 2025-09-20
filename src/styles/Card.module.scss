@@ -1,0 +1,36 @@
+.card {
+  margin-top: 10% 0 0 0;
+  max-height: 100%;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #fff;
+  transition: transform 0.2s;
+  cursor: pointer;
+
+  //overflow-y: scroll;
+  word-wrap: break-word;
+  word-break: break-all;
+  max-height: 100% !important;
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+
+  p {
+    color: #555;
+  }
+
+  a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #0070f3;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

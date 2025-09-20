@@ -6,7 +6,7 @@ let name = text ? text : 'Hi, Im Babavaraprasad Reddy Pingili';
   return (
     <section className={styles.profileSection}>
         <Image
-        src='/Baba.jpg'
+        src='/Baba_2.jpg'
         width={350}
         height={400}
         alt='No Profile'

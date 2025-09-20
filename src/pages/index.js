@@ -1,7 +1,7 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ProfileSection from '../components/ProfileSection';
-import ProjectCard from '../components/ProjectCard';
+import Card from '../components/Card';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
           <h2>My Projects</h2>
           <div className={styles.projectsGrid}>
             {projects.map((project, index) => (
-              <ProjectCard key={index} {...project} />
+              <Card key={index} {...project} />
             ))}
           </div>
         </section>
