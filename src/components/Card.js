@@ -13,10 +13,10 @@ export default function ProjectCard({
 }
 ){
   return (
-    <div className={styles.card} style={{width, height, overflow}}>
+    <section className={styles.card} style={{width, height, overflow}}>
       {showText && <h3>{title}</h3>}
       {showDescription && <p>{description}</p>}
       {showLink && link && <a href={link} target="_blank" rel="noopener noreferrer">View Project</a>}
-    </div>
+    </section>
   );
 }
