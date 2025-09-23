@@ -1,5 +1,6 @@
 import styles from '../styles/Navbar.module.scss';
 import About from '@/pages/About';
+import Projects from '@/pages/Projects';
 
 export default function Navbar() {
   return (
@@ -7,7 +8,7 @@ export default function Navbar() {
       <h2>My Portfolio</h2>
       <div>
         <a href="About">About</a>
-        <a href="/projects">Projects</a>
+        <a href="Projects">Projects</a>
       </div>
     </nav>
   );

@@ -17,3 +17,17 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
+
+/* Hide disabled arrows */
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Optional: style active arrows */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #007bff; /* match your theme */
+  font-weight: bold;
+}
