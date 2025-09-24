@@ -20,3 +20,26 @@ main {
   max-width: 900px;
   margin: 0 auto;
 }
+
+.slick-prev:before,
+.slick-next:before {
+  color:steelblue !important;   /* blue */
+  font-size: 40px !important;
+  top: 45% !important;  /* bigger arrows */
+}
+
+/* Change dot color */
+.slick-dots li button:before {
+  font-size: 12px !important;   /* dot size */
+  color: #bbb !important;       /* inactive dot color */
+}
+
+.slick-dots li.slick-active button:before {
+  color: burlywood !important;    /* active dot color */
+}
+
+/* Adjust spacing / line height around dots */
+.slick-dots {
+  bottom: -30px !important;     /* move dots down */
+  line-height: 1.8 !important;  /* increase spacing */
+}

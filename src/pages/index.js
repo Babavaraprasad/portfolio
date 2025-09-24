@@ -43,8 +43,7 @@ const settings = {
           <h2>My Projects</h2>
           <Slider {...settings}>
           {/* <div className={styles.projectsGrid}> */}
-            {projects.map((project, index) => (
-               
+            {projects.map((project, index) => ( 
               <Card key={index} {...project} />
             ))}
             </Slider>
