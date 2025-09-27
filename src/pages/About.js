@@ -18,23 +18,18 @@ export default function About() {
       I have acquired life skills such as Time Management, Team
       management, Public Speaking, Dealing with tough situations and
       bringing the best out, Communication and Collaboration,
-      Presentations, and Documentation.
-    </i>
-    <i style={{display:"block", marginBottom:"2rem" }}>
-      I'm interested in applying my knowledge and shaping my career
+      Presentations, and Documentation. I'm interested in applying my knowledge and shaping my career
       towards technology that makes human lives digitalized and
-      sustainable, with the responsibility of leading an organisation 21
-      years down the line.
+      sustainable.
     </i>
     <i style={{ display:"block", marginBottom:"2rem" }}>
       In my Master's at ITU, I was specialized in Technical Interaction
       design learning React, Typescript, node.js and Java for backend. My
       research project is about empirical research on online shopping and
       my thesis included qualitative research and building a mobile user
-      interface prototype as results. Post graduation, I worked with
-      Enalyzer, a Danish firm focused on quantitative market research
-      providing surveys for customers and generating survey reports to
-      help businesses in decision making.
+      interface prototype as results. Post graduation, I worked as a frontend developer with
+      Enalyzer, a Danish firm focused on quantitative market research for creating surveys to customers and generating survey reports to
+      help businesses in decision making process. In Enalyzer, I worked with React, Typescript, Javascript as frontend language. MobX for state management and SQL server for database
     </i>
     <i style={{ display:"block", marginBottom:"2rem"}}>
       Being a professional Software Developer with 5 years of experience,
@@ -45,6 +40,13 @@ export default function About() {
       conduct several testing techniques, such as Unit Testing, Manual
       Testing, Regression Testing, and Smoke Testing to assure accuracy of
       the developed software.
+    </i>
+     <i style={{ display:"block", marginBottom:"2rem"}}>
+      <b><u>Technical skills</u><br/></b>
+        Frontend: <b><i>REACT, TYPESCRIPT, JAVASCRIPT, HTML5/CSS3, MobX</i></b><br/>
+        Backend: <b><i>C#, REST API, SQL server</i></b><br/>
+        Cloud: <b><i>Azure</i></b>
+     
     </i>
 </>
 

@@ -9,11 +9,12 @@
     showText = true,
     showDescription = true,
     showLink = true,
-    overflow= false
+    overflow= false,
+    onclick,
   }
   ){
     return (
-      <section className={styles.card} style={{width, height, overflow}}>
+      <section className={styles.card} style={{width, height, overflow}} onClick={onclick}>
         {showText && <h3>{title}</h3>}
         {showDescription && <p>{description}</p>}
         {showLink && link && <a href={link} target="_blank" rel="noopener noreferrer">View Project</a>}

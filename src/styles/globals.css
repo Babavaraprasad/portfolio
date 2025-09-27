@@ -25,7 +25,8 @@ main {
 .slick-next:before {
   color:steelblue !important;   /* blue */
   font-size: 40px !important;
-  top: 45% !important;  /* bigger arrows */
+  top: 45% !important; 
+  display: none !important;/* bigger arrows */
 }
 
 /* Change dot color */

@@ -28,7 +28,7 @@ const projects = [
     description:
       "created a dashboard to display movies list using nextjs. It fetches data from TMDB and updates movies list for every 1 min with ISR concept in nextjs ",
     link: "https://github.com/Babavaraprasad/Movie_dashboard_using_Next.js",
-  },
+  },  
 ];
 
 export default projects;
